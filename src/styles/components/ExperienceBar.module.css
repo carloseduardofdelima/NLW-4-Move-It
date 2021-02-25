@@ -6,6 +6,7 @@
 
 .experienceBar span {
     font-size: 1rem;
+    color: var(--white);
 }
 
 .experienceBar > div {
@@ -21,6 +22,7 @@
     height: 4px;
     border-radius: 4px;
     background: var(--green);
+    transition: 1s ease-out;
 }
 
 span.currentExperience {
